@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.css">
+    <title>AITUevents</title>
+</head>
+<body>
+<style>
+  body {
+  background: #DEF7FE
+  }
+</style>
+
+
+<nav class="navbar navbar-dark navbar-fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+    <img src="/static/aitu-logo_white.png" alt="Logo" width="70" height="35" class="d-inline-block align-text-top">
+        AITU EVENTS
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/event_calendar">Event Calendar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about_us">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/science">Science and hackathons</a></li>
+              <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/meetings">Meetings with speakers</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/art">Art and music</a></li>
+              <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/sport">Sport</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<img src="/static/main3.png" class="img-fluid" alt="...">
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Внутривузовский этап конкурса научно-исследовательских работ студентов (НИРС) Astana IT University</h5>
+        <p class="card-text">Работы победителей внутривузовского этапа Конкурса НИРС направляются на ІІ этап республиканского конкурса НИРС в базовые ВУЗы. 🏆 Призеры Республиканского конкурса НИРС награждаются дипломами Министерства науки и высшего образования РК I, II, III степени. 🗓 Даты проведения: с 1 февраля по 1 марта 2023 года.</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Гостевая лекция от Гани Абадана на тему "Создание эффективной бизнес-модели"</h5>
+        <p class="card-text">Гани Абадан - профессиональный бизнес-тренер, консультант по эффективным коммуникациям, предприниматель 🕑 14 ноября 2022 года в 15:00 📍Атамекен Space</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Женский хакатон "She codes"</h5>
+        <p class="card-text">12 - 13 ноября (с 9:00 12.11 до 20:00 13.11) Astana IT University Церемония открытия и закрытия- актовый зал Непосредственно, решение задач- библиотека Девушки в возрасте от 18 до 30 лет Денежные призы, мерч Дедлайн регистрации: 9 ноября, 23:59</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTYU_iUMPgeCanV-et63mZxm1jjJL2sTuAGGrO5hYFrA8Y-w/viewform?usp=send_form" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Специальный конкурс «Забота о земле, забота о людях» Бизнес-идеи на селе от ЧФ «Enactus Kazakhstan»</h5>
+        <p class="card-text">Период проведения: Октябрь 2022 – Май 2023 гг. Участники: школьники и студенты  ENACTUS Жюри: Представители компании «Олжа Агро», бизнес-партнеры Enactus Kazakhstan; Призовой фонд: 5 000 000 тенге</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="static/photo3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Оффлайн программа "NURIS Hardware Challenge 2.0"</h5>
+        <p class="card-text">Призовой фонд - 2 000 000 тенге Старт программы - 7 ноября 2022 года Каждая команда получит ️200 000 тенге на расходные материалы от NURIS.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScfbIKJqyMgzMji3Y7Ho5lqcUh8Y2JJXXJHmS1nEXqwbbzRfQ/viewform" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Qazaq quizz</h5>
+        <p class="card-text">10.11.-17.11 пройдет молодежный фестиваль Jastar Jalyny среди всех ВУЗов города Астана. Одним из конкурсов фестиваля является Qazaq Quiz. Интеллектуальное соревнование между участниками фестиваля.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScLkYRch9nqx2BGS3Z59GNBsypr0sGeTrTWcfbzMozRu2cinw/viewform" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Valorant tourname</h5>
+        <p class="card-text">Хэй хэй хэй, не забыли про нас? AITU Gaming club напоминает вам о турнире по игре VALORANT Дата турнира: 5-6 ноября Формат проведения: 5х5, онлайн</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=8xWPFeCDBkmCTGm9xQ2dYXfAtK7B4r5Lo5Bt4ZqBP0pUN1A4R1lSODBPR0tDTEwyQzFCRlU1V1BMVC4u" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="/static/photo8.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Всемирный день науки - праздник посвященный развитию человечества и мирному сосуществованию</h5>
+        <p class="card-text">10-го ноября в AITU с 12:00 до 16:00 будут проводится различные ивенты, посвященные различным сферам науки</p>
+      </div>
+      <div class="card-footer">
+        <a href="" class="btn btn-primary">Регистрация</a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
